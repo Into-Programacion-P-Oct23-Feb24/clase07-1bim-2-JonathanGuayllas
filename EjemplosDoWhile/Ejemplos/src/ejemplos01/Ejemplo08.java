@@ -34,9 +34,9 @@ public class Ejemplo08 {
         do {
             // para manejar el signo asociado 
             if (denominador % 2 == 0) {
-                signo = "+";
+                signo = "+"; // true
             } else {
-                signo = "-";
+                signo = "-"; // false
             }
             
             cadena = String.format("%s%s%d/%d ", 
