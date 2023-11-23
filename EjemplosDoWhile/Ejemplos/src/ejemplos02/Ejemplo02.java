@@ -34,7 +34,8 @@ public class Ejemplo02 {
             System.out.println("Ingrese (s) o (si) o (yes) o (y) si desea "
                     + "salir del ciclo ");
             salida = entrada.nextLine();
-
+           
+            // se puede hacer con un switch también
             if (salida.equals("s") || salida.equals("si")
                     || salida.equals("yes") || salida.
                     equals("y")) { // f
