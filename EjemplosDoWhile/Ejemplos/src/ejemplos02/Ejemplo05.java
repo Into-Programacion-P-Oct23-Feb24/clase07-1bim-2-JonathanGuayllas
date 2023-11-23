@@ -18,10 +18,10 @@ import java.util.Scanner;
 public class Ejemplo05 {
 
     public static void main(String[] args) {
-        
+
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
-        
+
         // 2. numero, i[0, n]
         int numero;
         // 3. potencia, i[0, n]
@@ -30,10 +30,10 @@ public class Ejemplo05 {
         int resultado;
         // numero <-- 4
         System.out.println("Ingrese el número que se elevara a la potencia");
-            numero = entrada.nextInt();
+        numero = entrada.nextInt();
         // 8. potencia <-- 3
         System.out.println("Ingrese la potencia");
-            potencia = entrada.nextInt();
+        potencia = entrada.nextInt();
         // 9. resultado <-- 1
         resultado = 1;
 
